@@ -1,4 +1,4 @@
-package org.dice_research.sask-commons.Microservice;
+package org.dice_research.sask_commons.microservice;
 
 import org.springframework.cloud.client.ServiceInstance;
 
