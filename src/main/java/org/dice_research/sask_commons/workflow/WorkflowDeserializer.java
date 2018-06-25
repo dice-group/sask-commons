@@ -36,7 +36,7 @@ public class WorkflowDeserializer extends JsonDeserializer<Workflow> {
 	 * @param root
 	 * @return The workflow.
 	 */
-	protected Workflow parse(JsonNode root) {
+	public Workflow parse(JsonNode root) {
 		Workflow workflow = new Workflow();
 
 		workflow.setLinks(parseLinks(root));
